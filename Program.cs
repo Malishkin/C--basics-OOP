@@ -10,20 +10,19 @@ namespace project
     {
         static void Main()
         {
-      //    Bot bot = new Bot("Bot", 100, new byte[] { 1, 2, 3 });
-      //      bot.printValues();
-        Killer killer = new Killer("Killer", 200, new byte[] { 1, 2, 3 }, 100, Type.Hero);
-        killer.printValues();
-        killer.Laser();
+     
+      //   Killer killer = new Killer("Killer", 200, new byte[] { 1, 2, 3 }, 100, Type.Hero);
+      //   killer.printValues();
+      //   killer.Laser();
 
-      Bot bot1 = new Bot();
-      bot1.SetValues("Alex");
-      bot1.printValues();
-      // bot1.Weight=100;
-      //   Console.WriteLine(bot1.Weight);
-      //    Multiply(1.5f, 6f);
-      // Multiply(25d);
-            
+      // Bot bot1 = new Bot();
+      // bot1.SetValues("Alex");
+      // bot1.printValues();
+
+      Book book1 = new Book();
+      book1.SetValues("The Lord of the Rings", "J.R.R. Tolkien");
+      book1.printValues();
+      
         }
 
         public static void Multiply(int a, int b)
